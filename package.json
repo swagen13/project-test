@@ -1,0 +1,34 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^6.5.2",
+    "@react-native-picker/picker": "2.4.8",
+    "@react-navigation/drawer": "^6.5.6",
+    "@react-navigation/native": "^6.1.1",
+    "expo": "~47.0.8",
+    "expo-font": "^11.0.1",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-moment": "^1.1.2",
+    "react-native": "0.70.5",
+    "react-native-image-picker": "^4.10.2",
+    "react-native-modal-datetime-picker": "^14.0.0",
+    "react-native-modal-picker": "^0.0.16",
+    "react-native-otp-form": "^1.1.2",
+    "react-native-phone-number-input": "^2.1.0",
+    "react-native-reanimated": "~2.12.0",
+    "expo-image-picker": "~14.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
